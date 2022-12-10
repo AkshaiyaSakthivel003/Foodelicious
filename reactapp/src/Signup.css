@@ -1,0 +1,131 @@
+body{
+    background: url(bg.jpeg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  button {
+    background-color: rgba(193, 0, 3, 0.63);
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  input[type=text], input[type=password] {
+    width: 85%;
+    margin: 10px;
+    padding: 17px 20px;
+    background: rgba(193, 0, 3, 0.63);
+    border-radius: 70px;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+  }
+  ::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    opacity: 5;
+  }
+  button:hover {
+    opacity: 0.5;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+    padding: 100px;
+    border-radius: 70px;
+    box-sizing:content-box;
+    background-color: rgba(217, 217, 217, 0.74);
+  }
+  .name [type=text]{
+    display: inline-block;
+    width: 41%;
+  }
+  form {
+    width: 60%;
+    padding: 120px;
+  }
+  button{
+    border: none;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.8);  ;
+    border-radius: 70px;
+  }
+  .l1 {
+    height: 20px;
+    width: 800px;
+    margin-left: -100px;
+    margin-right: auto;
+    background: linear-gradient(
+      to bottom,
+      transparent 2px,
+      rgba(193, 0, 3, 0.63) 2px,
+      rgba(193, 0, 3, 0.63) 3px,
+      transparent 3px
+      );
+    }
+    .l2 {
+      height: 20px;
+      width: 800px;
+      margin-left: -100px;
+      margin-right: auto;
+      background: linear-gradient(
+        to bottom,
+        transparent 2px,
+        rgba(193, 0, 3, 0.63) 2px,
+        rgba(193, 0, 3, 0.63) 3px,
+      transparent 3px
+    );
+  }
+  .or{
+    background: rgba(217, 217, 217, 0.99);
+    font-family: "Kadwa";
+    font-size: 22px;
+    color: #C10003;
+    width: 25px;
+    padding: -200px;
+  }
+  .top{
+    margin-top: -10%;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .cont{
+    margin: 15px;
+    margin-left: -20px;
+    font-size: 30px;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #C10003;
+  }
+  .pass{
+    width:70%;
+    right: 180px;
+  }
+  .ggl{
+    position: absolute;
+    left: 650px;
+    top: 475px;
+  }
+  .fb{
+    position: absolute;
+    left: 720px;
+    top: 476px;
+  }
+  .twit{
+    position: absolute;
+    left: 790px;
+    top: 478px;
+  }
+  .appl{
+    position: absolute;
+    left: 860px;
+    top: 473px;
+  }
+  .logo{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
